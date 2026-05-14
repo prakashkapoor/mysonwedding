@@ -295,9 +295,9 @@ export default function WeddingWebsite() {
   };
 
   const shareOnWhatsApp = () => {
-    const text = `💍 सादर आमंत्रण 💍\n\nपरिवार के प्यार और आशीर्वाद के साथ,\n${WEDDING.groom.nameEn} ❤️ ${WEDDING.bride.nameEn}\nआपको अपने विवाह समारोह में सपरिवार आमंत्रित करते हैं।\n\n📅 19 June 2026\n\nAap sabke bina ye khushi adhuri lagegi. Zaroor aaiyega ✨\n\n${WEDDING.hashtag}\n\n${window.location.href}`;
-    window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, '_blank');
-  };
+  const text = `👰🤵 सादर आमंत्रण 👰🤵\n\nमैं कैलाश प्रसाद मेहता एवं मीरा मेहता,\nअपने छोटे पुत्र ${WEDDING.groom.nameEn} के शुभ विवाह\n${WEDDING.bride.nameEn} के साथ होने के शुभ अवसर पर,\nआपको सपरिवार सादर आमंत्रित करते हैं।\n\nकृपया पधारकर वर-वधु को अपना\nस्नेह एवं आशीर्वाद प्रदान करें।\n\n📅 19 June 2026\n\nAap sabke bina ye khushi adhuri lagegi. Zaroor aaiyega ✨\n\n${WEDDING.hashtag}\n\n${window.location.href}`;
+  window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, '_blank');
+ };
 
   const colorClasses = {
     amber: 'bg-amber-50 border-amber-300 text-amber-900',
